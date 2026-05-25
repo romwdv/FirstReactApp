@@ -1,7 +1,7 @@
 const ContentSideAbout = (props) => {
   return (
     <>
-      <h3>{props.title}</h3>
+      <h2>{props.title}</h2>
       <img src={props.picture} alt="" />
       <p>{props.description}</p>
     </>
