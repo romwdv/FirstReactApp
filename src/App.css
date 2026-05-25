@@ -137,3 +137,7 @@ Footer h4 {
 footer span {
   font-weight: 500;
 }
+
+footer a {
+  color: #000;
+}
