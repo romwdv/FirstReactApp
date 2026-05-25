@@ -1,5 +1,4 @@
 import ContentSideAbout from "./ContentSideAbout";
-import avatar from "../assets/avatar.jpg";
 
 const ContentSide = () => {
   return (
@@ -7,7 +6,7 @@ const ContentSide = () => {
       <ContentSideAbout
         title="About Me"
         description="Cras interdum pharetra felis eu faucibus."
-        picture={avatar}
+        picture="test"
       />
     </div>
   );

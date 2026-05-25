@@ -1,10 +1,12 @@
 const ContentItem = (props) => {
   return (
     <>
-      <h2>{props.title}</h2>
-      <p>{props.description}</p>
-      <p>{props.subtitle}</p>
-      <img src={props.picture} alt="" />
+      <div className="content-item">
+        <h2>{props.title}</h2>
+        <p>{props.subtitle}</p>
+        <img src={props.picture} alt="" />
+        <p>{props.description}</p>
+      </div>
     </>
   );
 };
